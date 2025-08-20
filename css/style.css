@@ -67,3 +67,11 @@ padding-left: 20px;
 #listaSimulaciones li {
 margin-bottom: 10px;
 }
+
+#btnBorrar {
+background-color: #d32f2f;
+}
+
+#btnBorrar:hover {
+background-color: #921515;
+}

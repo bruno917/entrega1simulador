@@ -1,0 +1,5 @@
+[
+{ "minCuotas": 1, "maxCuotas": 12, "tasa": 0.20 },
+{ "minCuotas": 13, "maxCuotas": 24, "tasa": 0.25 },
+{ "minCuotas": 25, "maxCuotas": 48, "tasa": 0.30 }
+]

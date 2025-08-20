@@ -4,62 +4,21 @@
 <meta charset="UTF-8">
 <title>Simulador de Préstamos</title>
 <link rel="stylesheet" href="css/style.css">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="js/simulador.js" defer></script>
 </head>
 <body>
 <div class="container">
     <h1>Simulador de Préstamos Personales</h1>
+
     <form id="formularioPrestamo">
-    <input type="text" id="nombre" placeholder="Tu nombre" required>
-    <input type="number" id="monto" placeholder="Monto del préstamo" required>
+    
+    <input type="text" id="nombre" placeholder="Tu nombre" required value="Bruno Mariño">
+    <input type="number" id="monto" placeholder="Monto del préstamo" required value="10000">
+    
     <select id="cuotas" required>
         <option value="">Selecciona cuotas</option>
-        <option value="3">3 cuotas</option>
-<option value="4">4 cuotas</option>
-<option value="5">5 cuotas</option>
-<option value="6">6 cuotas</option>
-<option value="7">7 cuotas</option>
-<option value="8">8 cuotas</option>
-<option value="9">9 cuotas</option>
-<option value="10">10 cuotas</option>
-<option value="11">11 cuotas</option>
-<option value="12">12 cuotas</option>
-<option value="13">13 cuotas</option>
-<option value="14">14 cuotas</option>
-<option value="15">15 cuotas</option>
-<option value="16">16 cuotas</option>
-<option value="17">17 cuotas</option>
-<option value="18">18 cuotas</option>
-<option value="19">19 cuotas</option>
-<option value="20">20 cuotas</option>
-<option value="21">21 cuotas</option>
-<option value="22">22 cuotas</option>
-<option value="23">23 cuotas</option>
-<option value="24">24 cuotas</option>
-<option value="25">25 cuotas</option>
-<option value="26">26 cuotas</option>
-<option value="27">27 cuotas</option>
-<option value="28">28 cuotas</option>
-<option value="29">29 cuotas</option>
-<option value="30">30 cuotas</option>
-<option value="31">31 cuotas</option>
-<option value="32">32 cuotas</option>
-<option value="33">33 cuotas</option>
-<option value="34">34 cuotas</option>
-<option value="35">35 cuotas</option>
-<option value="36">36 cuotas</option>
-<option value="37">37 cuotas</option>
-<option value="38">38 cuotas</option>
-<option value="39">39 cuotas</option>
-<option value="40">40 cuotas</option>
-<option value="41">41 cuotas</option>
-<option value="42">42 cuotas</option>
-<option value="43">43 cuotas</option>
-<option value="44">44 cuotas</option>
-<option value="45">45 cuotas</option>
-<option value="46">46 cuotas</option>
-<option value="47">47 cuotas</option>
-<option value="48">48 cuotas</option>
+        
     </select>
     <button type="submit">Simular</button>
     </form>
@@ -68,6 +27,8 @@
 
     <h2>Simulaciones guardadas</h2>
     <ul id="listaSimulaciones"></ul>
+<button id="btnBorrar">Borrar todas las simulaciones</button>
+
 </div>
 </body>
 </html>
